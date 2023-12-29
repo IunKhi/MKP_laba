@@ -86,8 +86,8 @@ double eccentricAnomalyByIteration(double M, double e) {
 
 int main() {
     // Данные для уравнения Кеплера
-    double M = 4.6 * pow(10, 24); // Средняя аномалия
-    double e = 0.82764717; // Эксцентриситет
+    double M = 4.87 * pow(10, 24); // Средняя аномалия
+    double e = 0.8276646992; // Эксцентриситет
 
     // Вычисление эксцентрической аномалии
     double E_iteration = eccentricAnomalyByIteration(M, e);
